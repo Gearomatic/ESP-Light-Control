@@ -1,0 +1,978 @@
+{
+  "uuid": "be46100a55e5384c939c5bd44a6aa244",
+  "path": "Offline/GVM Battery Light",
+  "name": "GVM Battery Light",
+  "content": "",
+  "created_at": "2026-01-06 18:53:45",
+  "updated_at": "2026-06-04 09:54:22",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "735b0fa27be1eb492b7f75281531cee0",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5d71cea9aecb4ac08145ddbfa1a9ed6b": 1,
+        "30fa1354a4bd40f0a1b7429df0ee84d0": 1,
+        "5aebc7e3f77345b98376c4da09a72092": 1,
+        "707a30de0dba4de9bf6884e7f71c2f47": 1,
+        "287b7d1e39a44f0d9418c001b8f20d0a": 1,
+        "dca9aa79bc424961ab65d0b0e996eaa7": 1,
+        "4e5e5775fd634dd48141eafc77c26e7a": 1,
+        "a1a68e8402b9461199345d2cae776c3f": 3,
+        "62a5d91115c34b5b8d27e6b924c6c14e": 1,
+        "5cbe824183374fac8e4c1ae848199ce3": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1N4148",
+          1,
+          "DO-35_BD2.0-L4.2-P8.20-D0.5-RD",
+          "D1",
+          {
+            "Manufacturer Part": "1N4148",
+            "Manufacturer": "STMicroelectronics",
+            "Supplier": "LCSC",
+            "Supplier Part": "C13769"
+          }
+        ],
+        [
+          "SRD-03VDC-SL-C",
+          1,
+          "RELAY-TH_SRD-XXVDC-XL-C",
+          "K1",
+          {
+            "Manufacturer Part": "SRD-03VDC-SL-C",
+            "Manufacturer": "松乐",
+            "Supplier": "LCSC",
+            "Supplier Part": "C24585"
+          }
+        ],
+        [
+          "LED-0603_R",
+          1,
+          "LED0603_RED",
+          "LED1",
+          {
+            "Manufacturer Part": "19-217/R6C-AL1M2VY/3T",
+            "Manufacturer": "EVERLIGHT(台湾亿光)",
+            "Supplier": "LCSC",
+            "Supplier Part": "C72044"
+          }
+        ],
+        [
+          "2N3904(SOT-23)",
+          1,
+          "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-TR",
+          "Q1",
+          {
+            "Manufacturer Part": "2n3904S-RTK/PS",
+            "Manufacturer": "KEC",
+            "Supplier": "LCSC",
+            "Supplier Part": "C18536"
+          }
+        ],
+        [
+          "10K",
+          1,
+          "R_AXIAL-0.3",
+          "R1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "1k",
+          2,
+          "R_AXIAL-0.3",
+          "R2,R3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "BUTTON",
+          1,
+          "SW-SMD_L3.9-W2.9-LS4.9-L",
+          "U1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900015607"
+          }
+        ],
+        [
+          "MPM3610 5V",
+          1,
+          "MPM3610",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Adafruit",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP32-C3-SUPER-MINI",
+          1,
+          "ESP32-C3-SUPER-MINI",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Maker go",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "2pinbanana",
+          1,
+          "2PINBANANA",
+          "U4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "PJ-005A",
+          1,
+          "PJ-005A",
+          "U5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1780581262,
+      "createTime": 1767743625,
+      "histories": [],
+      "created_at": "2026-01-06 18:53:45",
+      "updated_at": "2026-06-04 09:54:22"
+    },
+    {
+      "uuid": "4df1972ae3214eeb921b70ce77f39ee0",
+      "puuid": "be46100a55e5384c939c5bd44a6aa244",
+      "title": "PCB_GVM Battery Light",
+      "filename": "PCB_GVM Battery Light.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "10de27dc1c244e5294d98cec5ad62dcb": 2,
+        "93282f30886040c79f7260abe84aa52d": 1,
+        "8d39b1deac3b48a980b52d6482b64c47": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "SRD-03VDC-SL-C",
+          1,
+          "RELAY-TH_SRD-XXVDC-XL-C",
+          "K1",
+          {
+            "Manufacturer Part": "SRD-03VDC-SL-C",
+            "Manufacturer": "松乐",
+            "Supplier": "LCSC",
+            "Supplier Part": "C24585"
+          }
+        ],
+        [
+          "BUTTON",
+          1,
+          "SW-SMD_L3.9-W2.9-LS4.9-L",
+          "U1",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900015607"
+          }
+        ],
+        [
+          "MPM3610 5V",
+          1,
+          "MPM3610",
+          "U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Adafruit",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP32-C3-SUPER-MINI",
+          1,
+          "ESP32-C3-SUPER-MINI",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Maker go",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "2pinbanana",
+          1,
+          "2PINBANANA",
+          "U4",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "PJ-005A",
+          1,
+          "PJ-005A",
+          "U5",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1777907455,
+      "createTime": 1777860638,
+      "histories": [],
+      "created_at": "2026-05-03 22:10:38",
+      "updated_at": "2026-05-04 11:10:55"
+    },
+    {
+      "uuid": "77e10192c6a72f440b66aa879afddeca",
+      "puuid": "be46100a55e5384c939c5bd44a6aa244",
+      "title": "PCB_GVM Battery Light V2",
+      "filename": "PCB_GVM Battery Light V2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "10de27dc1c244e5294d98cec5ad62dcb": 2,
+        "8d39b1deac3b48a980b52d6482b64c47": 1,
+        "93282f30886040c79f7260abe84aa52d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "_",
+          2,
+          "",
+          "U8,U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "J1031C3VDC.15S",
+          2,
+          "J1031C3VDC.15S",
+          "U7,U6",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "CIT",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ADAFRUIT QT PY",
+          1,
+          "ADAFRUIT QT PY",
+          "U9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP32-C3-SUPER-MINI",
+          1,
+          "ESP32-C3-SUPER-MINI",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Maker go",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1777908220,
+      "createTime": 1777908220,
+      "histories": [],
+      "created_at": "2026-05-04 11:23:40",
+      "updated_at": "2026-05-04 11:23:40"
+    },
+    {
+      "uuid": "2f16e8e76ef998ccb68f68c0bedb66b2",
+      "puuid": "be46100a55e5384c939c5bd44a6aa244",
+      "title": "PCB_GVM Battery Light V3",
+      "filename": "PCB_GVM Battery Light V3.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "10de27dc1c244e5294d98cec5ad62dcb": 2,
+        "93282f30886040c79f7260abe84aa52d": 1,
+        "8d39b1deac3b48a980b52d6482b64c47": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "J1031C3VDC.15S",
+          2,
+          "J1031C3VDC.15S",
+          "U6,U7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "CIT",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "_",
+          2,
+          "",
+          "U2,U8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP32-C3-SUPER-MINI",
+          1,
+          "ESP32-C3-SUPER-MINI",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Maker go",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ADAFRUIT QT PY",
+          1,
+          "ADAFRUIT QT PY",
+          "U9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1778038860,
+      "createTime": 1777986168,
+      "histories": [],
+      "created_at": "2026-05-05 09:02:48",
+      "updated_at": "2026-05-05 23:41:00"
+    },
+    {
+      "uuid": "968a2ee93110454a0edfb0254b628299",
+      "puuid": "be46100a55e5384c939c5bd44a6aa244",
+      "title": "PCB_GVM Battery Light V4",
+      "filename": "PCB_GVM Battery Light V4.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "10de27dc1c244e5294d98cec5ad62dcb": 2,
+        "8d39b1deac3b48a980b52d6482b64c47": 1,
+        "93282f30886040c79f7260abe84aa52d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "J1031C3VDC.15S",
+          2,
+          "J1031C3VDC.15S",
+          "U6,U7",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "CIT",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "_",
+          2,
+          "",
+          "U2,U8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP32-C3-SUPER-MINI",
+          1,
+          "ESP32-C3-SUPER-MINI",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Maker go",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ADAFRUIT QT PY",
+          1,
+          "ADAFRUIT QT PY",
+          "U9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1778536247,
+      "createTime": 1778039285,
+      "histories": [],
+      "created_at": "2026-05-05 23:48:05",
+      "updated_at": "2026-05-11 17:50:47"
+    },
+    {
+      "uuid": "a6dc93ad7a2c83df50163f1ebd53d209",
+      "puuid": "be46100a55e5384c939c5bd44a6aa244",
+      "title": "PCB_GVM Battery Light V5",
+      "filename": "PCB_GVM Battery Light V5.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "79da61dc97e2440da13d9f334cbd6eeb": 2,
+        "93282f30886040c79f7260abe84aa52d": 1,
+        "f62e8f89d03e47c3b9f51fb92b19395b": 2,
+        "55a83152473e4fc690dd0baccf08449e": 2,
+        "8d39b1deac3b48a980b52d6482b64c47": 1,
+        "86d0f9e788a448baae93e8a9a46b2c69": 6
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "_",
+          2,
+          "",
+          "U8,U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ADAFRUIT QT PY",
+          1,
+          "ADAFRUIT QT PY",
+          "U9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP32-C3-SUPER-MINI",
+          1,
+          "ESP32-C3-SUPER-MINI",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Maker go",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RELAY-TH_J1021CS512VDC.45",
+          2,
+          "RELAY-TH_J1021CS512VDC.45",
+          "U4,U5",
+          {
+            "Manufacturer Part": "J1021CS512VDC.45",
+            "Manufacturer": "CIT Relay and Switch",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6578081"
+          }
+        ]
+      ],
+      "updateTime": 1778818156,
+      "createTime": 1778738103,
+      "histories": [],
+      "created_at": "2026-05-14 01:55:03",
+      "updated_at": "2026-05-15 00:09:16"
+    },
+    {
+      "uuid": "74f7846807c9a92060bc194f4dc3211e",
+      "puuid": "be46100a55e5384c939c5bd44a6aa244",
+      "title": "PCB_GVM Battery Light V5f2",
+      "filename": "PCB_GVM Battery Light V5f2.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "86d0f9e788a448baae93e8a9a46b2c69": 6,
+        "79da61dc97e2440da13d9f334cbd6eeb": 2,
+        "55a83152473e4fc690dd0baccf08449e": 2,
+        "8d39b1deac3b48a980b52d6482b64c47": 1,
+        "f62e8f89d03e47c3b9f51fb92b19395b": 2,
+        "93282f30886040c79f7260abe84aa52d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "1N4148",
+          2,
+          "",
+          "1N4148,1N4148",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RES-TH_12R_2W",
+          6,
+          "RES-TH_12R_2W",
+          "11K,1K,10K,1K,10K,1K",
+          {
+            "Manufacturer Part": "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900016274"
+          }
+        ],
+        [
+          "LED-TH_LED-DP2-2LED-AMCC",
+          2,
+          "LED-TH_LED-DP2-2LED-AMCC",
+          "LED,LED",
+          {
+            "Manufacturer Part": "5600",
+            "Manufacturer": "VccLite",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "L20325-ND"
+          }
+        ],
+        [
+          "_",
+          2,
+          "",
+          "U2,U8",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP32-C3-SUPER-MINI",
+          1,
+          "ESP32-C3-SUPER-MINI",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Maker go",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RELAY-TH_J1021CS512VDC.45",
+          2,
+          "RELAY-TH_J1021CS512VDC.45",
+          "U4,U5",
+          {
+            "Manufacturer Part": "J1021CS512VDC.45",
+            "Manufacturer": "CIT Relay and Switch",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6578081"
+          }
+        ],
+        [
+          "2N2222A",
+          2,
+          "2N2222A",
+          "2N2222A,2N2222A",
+          {
+            "Manufacturer Part": "4878-2N2222ATB-ND",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ADAFRUIT QT PY",
+          1,
+          "ADAFRUIT QT PY",
+          "U9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1780266224,
+      "createTime": 1779597142,
+      "histories": [],
+      "created_at": "2026-05-24 00:32:22",
+      "updated_at": "2026-05-31 18:23:44"
+    },
+    {
+      "uuid": "d9e1869ee01978c2a2a9193f96ab5dc1",
+      "puuid": "be46100a55e5384c939c5bd44a6aa244",
+      "title": "PCB_GVM Battery Light V6",
+      "filename": "PCB_GVM Battery Light V6.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "86d0f9e788a448baae93e8a9a46b2c69": 6,
+        "79da61dc97e2440da13d9f334cbd6eeb": 2,
+        "55a83152473e4fc690dd0baccf08449e": 2,
+        "8d39b1deac3b48a980b52d6482b64c47": 1,
+        "f62e8f89d03e47c3b9f51fb92b19395b": 2,
+        "93282f30886040c79f7260abe84aa52d": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "RES-TH_12R_2W",
+          6,
+          "RES-TH_12R_2W",
+          "11K,1K,10K,1K,10K,1K",
+          {
+            "Manufacturer Part": "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900016274"
+          }
+        ],
+        [
+          "LED-TH_LED-DP2-2LED-AMCC",
+          2,
+          "LED-TH_LED-DP2-2LED-AMCC",
+          "LED,LED",
+          {
+            "Manufacturer Part": "5600",
+            "Manufacturer": "VccLite",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "L20325-ND"
+          }
+        ],
+        [
+          "2N2222A",
+          2,
+          "2N2222A",
+          "2N2222A,2N2222A",
+          {
+            "Manufacturer Part": "4878-2N2222ATB-ND",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "_",
+          2,
+          "",
+          "U8,U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ADAFRUIT QT PY",
+          1,
+          "ADAFRUIT QT PY",
+          "U9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RELAY-TH_J1021CS512VDC.45",
+          2,
+          "RELAY-TH_J1021CS512VDC.45",
+          "U5,U4",
+          {
+            "Manufacturer Part": "J1021CS512VDC.45",
+            "Manufacturer": "CIT Relay and Switch",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6578081"
+          }
+        ],
+        [
+          "1N4148",
+          2,
+          "",
+          "1N4148,1N4148",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP32-C3-SUPER-MINI",
+          1,
+          "ESP32-C3-SUPER-MINI",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Maker go",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1779976293,
+      "createTime": 1779608088,
+      "histories": [],
+      "created_at": "2026-05-24 03:34:48",
+      "updated_at": "2026-05-28 09:51:33"
+    },
+    {
+      "uuid": "6eae67f4e71b4d75b627affe9cb195dc",
+      "puuid": "be46100a55e5384c939c5bd44a6aa244",
+      "title": "PCB_GVM Battery Light V7- 5V relay",
+      "filename": "PCB_GVM Battery Light V7- 5V relay.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "86d0f9e788a448baae93e8a9a46b2c69": 6,
+        "79da61dc97e2440da13d9f334cbd6eeb": 2,
+        "93282f30886040c79f7260abe84aa52d": 1,
+        "f62e8f89d03e47c3b9f51fb92b19395b": 2,
+        "55a83152473e4fc690dd0baccf08449e": 2,
+        "8d39b1deac3b48a980b52d6482b64c47": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "RES-TH_12R_2W",
+          6,
+          "RES-TH_12R_2W",
+          "11K,1K,10K,1K,10K,1K",
+          {
+            "Manufacturer Part": "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical",
+            "Manufacturer": "null",
+            "Supplier": "LCSC",
+            "Supplier Part": "C9900016274"
+          }
+        ],
+        [
+          "LED-TH_LED-DP2-2LED-AMCC",
+          2,
+          "LED-TH_LED-DP2-2LED-AMCC",
+          "LED,LED",
+          {
+            "Manufacturer Part": "5600",
+            "Manufacturer": "VccLite",
+            "Supplier": "Digi-Key",
+            "Supplier Part": "L20325-ND"
+          }
+        ],
+        [
+          "2N2222A",
+          2,
+          "2N2222A",
+          "2N2222A,2N2222A",
+          {
+            "Manufacturer Part": "4878-2N2222ATB-ND",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "_",
+          2,
+          "",
+          "U8,U2",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ADAFRUIT QT PY",
+          1,
+          "ADAFRUIT QT PY",
+          "U9",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "RELAY-TH_J1021CS512VDC.45",
+          2,
+          "RELAY-TH_J1021CS512VDC.45",
+          "U5,U4",
+          {
+            "Manufacturer Part": "J1021CS512VDC.45",
+            "Manufacturer": "CIT Relay and Switch",
+            "Supplier": "LCSC",
+            "Supplier Part": "C6578081"
+          }
+        ],
+        [
+          "1N4148",
+          2,
+          "",
+          "1N4148,1N4148",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ],
+        [
+          "ESP32-C3-SUPER-MINI",
+          1,
+          "ESP32-C3-SUPER-MINI",
+          "U3",
+          {
+            "Manufacturer Part": "",
+            "Manufacturer": "Maker go",
+            "Supplier": "",
+            "Supplier Part": ""
+          }
+        ]
+      ],
+      "updateTime": 1780331239,
+      "createTime": 1779975937,
+      "histories": [],
+      "created_at": "2026-05-28 09:45:37",
+      "updated_at": "2026-06-01 12:27:19"
+    }
+  ],
+  "sort": [],
+  "title": "GVM Battery Light",
+  "foldername": "GVM Battery Light",
+  "schfilename": "GVM Battery Light.json",
+  "schfilemtime": 1780581262747
+}
